@@ -1,0 +1,208 @@
+/*
+=========================================
+=========================================
+
+  Appton - Bootstrap 4 Template
+
+=========================================
+========================================= */
+/*
+* =====================================================
+*     GENERAL
+* =====================================================
+*/
+
+@charset "UTF-8";
+
+
+@font-face {
+  font-family: "appton";
+  src:url("../fonts/appton.eot");
+  src:url("../fonts/appton.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/appton.woff") format("woff"),
+    url("../fonts/appton.ttf") format("truetype"),
+    url("../fonts/appton.svg#appton") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+.btn-outline-light:hover {
+  color: #E7475E !important;
+}
+
+section {
+  padding: 7rem 0;
+}
+
+strong {
+  font-weight: 600;
+}
+
+a {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+
+.modal {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.modal-content {
+  border-radius: 0;
+}
+
+.modal-content .close {
+  width: 3rem;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #E7475E;
+  display: block;
+  opacity: 1;
+  padding: 0;
+  outline: none;
+}
+
+.modal-content .close span {
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.bg-gray, .sidebar-widget {
+  background: #f5f5f5 !important;
+}
+
+.bg-gray, .sidebar-widget {
+  background: #f5f5f5 !important;
+}
+
+.breadcrumb {
+  background: none;
+}
+
+.breadcrumb li.breadcrumb-item {
+  color: #999;
+}
+
+.form-group label {
+  color: #555;
+  font-weight: 400;
+  font-size: 1.05rem;
+}
+
+
+
+
+
+
+/*
+* =====================================================
+*     NAVBAR
+* =====================================================
+*/
+nav.navbar {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+nav.navbar.active {
+  background: #fff;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
+}
+
+nav.navbar .dropdown-menu {
+  margin-top: 1.4rem;
+}
+
+/* NAVBAR MEDIAQUERY */
+@media (max-width: 991.98px) {
+  nav.navbar {
+    background: #fff;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
+  }
+  nav.navbar .dropdown-menu {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+/*
+* =====================================================
+*     FOOTER
+* =====================================================
+*/
+footer.main-footer {
+  padding: 7rem 0;
+  background: #E7475E;
+  color: #fff;
+  padding-bottom: 0;
+}
+
+.footer-logo {
+  width: 7.5rem;
+}
+
+.footer-link {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin: 0.3rem 0;
+}
+
+.footer-link:hover, .footer-link:focus {
+  color: #fff;
+}
+
+.social-link {
+  color: #fff;
+  font-size: 0.9rem;
+  margin: 0 0.625rem;
+}
+
+.social-link:hover {
+  color: #fff;
+}
+
+.footer-heading {
+  margin-bottom: 1.25rem;
+  font-weight: 600;
+}
+
+.copyrights-text {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.copyrights {
+  margin-top: 2rem;
+  padding: 1.25rem 0;
+}
+
+/*

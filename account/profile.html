@@ -1,0 +1,1710 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Sworte</title>
+     <!-- Bootstrap CSS-->
+      <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.css">
+    <!-- Sworte custom CSS   -->
+    <link rel="stylesheet" type="text/css" href="../css/sworte.css">
+    <link rel="stylesheet" type="text/css" href="../css/modal.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/logo_favicon.ico">
+    <!-- Font Awesome CSS Updated-->
+    <link rel="stylesheet" href="../vendor/fontawesome-5.1.1/css/all.min.css">
+    <link rel="stylesheet" href="../vendor/fontawesome-5.1.1/css/brands.min.css">
+    <link rel="stylesheet" href="../vendor/fontawesome-5.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../vendor/fontawesome-5.1.1/css/regular.min.css">
+    <link rel="stylesheet" href="../vendor/fontawesome-5.1.1/css/solid.min.css">
+    <link rel="stylesheet" href="../vendor/fontawesome-5.1.1/css/svg-with-js.min.css">
+    <link rel="stylesheet" href="../vendor/fontawesome-5.1.1/css/v4-shims.min.css">      
+    <!-- Font Awesome CSS-->
+      <link rel="stylesheet" href="../vendor/font-awesome/css/font-awesome.min.css">
+      <!-- Google fonts - Poppins-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,600">
+      <link href="https://fonts.googleapis.com/css?family=Play:400,700" rel="stylesheet">
+      <!-- Autograph Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Arizonia|Dancing+Script|Great+Vibes|Italianno|Monsieur+La+Doulaise|Mr+De+Haviland|Tangerine" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Pacifico" rel="stylesheet">
+      <!-- Custom font icons-->
+      <link rel="stylesheet" href="../css/fontastic.css">
+      <!-- Favicon-->
+      <link rel="icon" type="image/png" href="img/02-2_Sworte_Logo.png">
+  </head>
+
+	<body>
+		<!-- navbar -->
+    <header class="header fixed-top ">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a href="../index.html" class="navbar-brand"><img src="img/5_sworte_logo.png" alt="Sworte_logo" class="img-fluid"></a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">Menu<i class="fa fa-bars ml-2"></i></button>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse"> 
+            <form action="profile.html" class="navbar-nav ml-auto">
+              <div>
+                <input type="text" name="search" class="search-space" placeholder="Search..."/>
+                <span class="input-group-btn">
+                  <button class="btn btn-sworte" type="submit">
+                    <span class="fa fa-search"></span>
+                  </button>
+                </span>
+              </div>
+            </form>
+
+            <ul class="navbar-nav ml-auto">
+              <!-- Link-->
+              <li class="nav-item dropdown text-lg-center text-center">
+                <a id="pages" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">
+                  <span class="fa-stack has-badge"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-vcard-o fa-stack-1x"></i>
+                </span><br>
+                <span class="menu-title">Adediran A.</span>
+
+                  <!-- <i class=""></i> -->
+                </a>
+                <div class="dropdown-menu">
+                  <div class="dropdown-cover">
+                    <div class="pull-center text-center">
+                        <div class="btn-group-1">
+                          <h5><strong>Profile</strong></h5>
+                        </div>
+                      </div>
+                      <table class="table table-filter">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <a href="personality.html" class="dropdown-item">
+                                  <span class="fas fa-street-view st-5"> </span>
+                                 Personality</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <a href="testimonial.html" class="dropdown-item">
+                                  <span class="fas fa-comment-dots  st-5"> </span> Testimonials</a>
+                              </td>
+                            </tr>                  
+                            <tr>
+                              <td>
+                                <a href="setting.html" class="dropdown-item">
+                                  <span class="fa fa-sliders-h  st-5"> </span> Settings</a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      <div class="pull-center text-center">
+                        <div class="btn-group-1">
+                          <a href="../index.html" class="dropdown-item-2">
+                            <span class="fas fa-sign-out-alt  st-5"> </span> 
+                          Log Out</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown text-lg-center text-center">
+                <a id="pages" href="#" data-toggle="dropdown"  data-target="#" href="/settings_profile.html" class="nav-link">
+                  <span class="fa-stack has-badge" data-count="12"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-bell-o fa-stack-1"></i>
+                  </span><br>
+                  <span class="menu-title">Notifications</span>
+                </a>
+
+                <ul class="dropdown-menu scrollable-menu menu-1" role="Menu" aria-labelledby="pages">
+                  <div class="dropdown-cover-1">
+                      <div class="pull-center text-center">
+                        <div class="btn-group-1">
+                          <h5><strong>Notifications</strong></h5>
+                        </div>
+                      </div>
+
+                      <div class="row-1">
+                        <table class="table table-filter">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <a href="javascript:;" class="star">
+                                  <i class="fa fa-star"></i>
+                                </a>
+                              </td>
+                              <td>
+                                <div class="media">
+                                  <a href="#" class="pull-left">
+                                    <img src="img/sworte_dp1.jpg" alt="" class="dp-not dp img-dp-2">
+                                  </a>
+                                  <div class="media-body">
+                                    <span class="media-meta pull-right">Febrero 13, 2016</span>
+                                    <h4 class="title">
+                                      Lorem Impsum
+                                    </h4>
+                                    <p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td>
+                                <a href="javascript:;" class="star">
+                                  <i class="fa fa-star"></i>
+                                </a>
+                              </td>
+                              <td>
+                                <div class="media">
+                                  <a href="#" class="pull-left">
+                                    <img src="img/sworte_dp.jpg" alt="" class="dp-not dp img-dp-2">
+                                  </a>
+                                  <div class="media-body">
+                                    <span class="media-meta pull-right">Febrero 13, 2016</span>
+                                    <h4 class="title">
+                                      Lorem Impsum
+                                    </h4>
+                                    <p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td>
+                                <a href="javascript:;" class="star">
+                                  <i class="fa fa-star"></i>
+                                </a>
+                              </td>
+                              <td>
+                                <div class="media">
+                                  <a href="#" class="pull-left">
+                                    <img src="img/sworte_dp1.jpg" alt="" class="dp-not dp img-dp-2">
+                                  </a>
+                                  <div class="media-body">
+                                    <span class="media-meta pull-right">Febrero 13, 2016</span>
+                                    <h4 class="title">
+                                      Lorem Impsum
+                                    </h4>
+                                    <p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td>
+                                <a href="javascript:;" class="star">
+                                  <i class="fa fa-star"></i>
+                                </a>
+                              </td>
+                              <td>
+                                <div class="media">
+                                  <a href="#" class="pull-left">
+                                    <img src="img/sworte_dp.jpg" alt="" class="dp-not dp img-dp-2">
+                                  </a>
+                                  <div class="media-body">
+                                    <span class="media-meta pull-right">Febrero 13, 2016</span>
+                                    <h4 class="title">
+                                      Lorem Impsum
+                                    </h4>
+                                    <p class="summary">Ut enim ad minim veniam, quis nostrud exercitation...</p>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="pull-center text-center">
+                        <div class="btn-group-1">
+                          <a href="" class="dropdown-item-2">
+                            <span class="fas fa-inbox st-5"> </span> See More</a>
+                        </div>
+                      </div>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </nav>
+    </header>
+
+
+		 <!-- Section Starts here-->
+      <section class="bg-gray">
+      <div class="container">
+        <div class="row mt-5">
+          <!-- Profile Picture -->
+          <div class="col-lg-3 mt-5 mt-lg-0">
+            <div class="profile-dp">
+              <div><img src="img/sworte_dp1.jpg" alt="" class="img-fluid-1 dp img-thumbnail"></div>
+            </div>
+          </div>
+
+          <!-- Profile Body -->
+          <div class="col-lg-9 mt-5 mt-lg-0">
+            <div class="box-nameplate">
+              <h6>Life and times of <strong>Aremu Ibraheem Adephabiola</strong></h6>
+             <!--  <span class="fa "></span> -->
+                <hr id="nameplate-rule">
+              <h6><strong>Heir to the Kingdom's blessing</strong> (The official autobiography)</h6>
+            </div>
+
+
+            <!-- Body action -->
+            <div class="row">
+              <div class="col-lg-8 mt-5 mt-lg-0">
+                
+                <div class="box-nameplate profile-plate">
+                  <div class="row head-plate plate-heading">
+                    <div class="col-lg-10 title-1">
+                      <h5><strong>Background</strong></h5>
+                      <p class="title-3 text-small">About me, Aremu Ibraheem Adephabiola</p>
+                    </div>
+                    <div class="col-lg-2 text-lg-right title-2">
+                      <!-- <a href="#" class="nav-link">
+                        <i class="fas fa-pencil-alt"></i>
+                      </a> -->
+                    </div>
+                  </div>
+                  <div class="row-1">
+                    <div class="">
+                      <h6><strong>Who I am</strong></h6>
+                      <p>
+                        The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat. Note that you might not comprehend all the write-ups here but it’s important that you have an understanding of what we are meant to-do on that day.
+                      </p>
+                      <br>
+                      <h6><strong>How I See Life</strong></h6>
+                      <p>
+                        The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat. Note that you might not comprehend all the write-ups here but it’s important that you have an understanding of what we are meant to-do on that day.
+                      </p>
+                      <br>
+                      <h6><strong>My Future Outlook</strong></h6>
+                      <p>
+                        The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat. Note that you might not comprehend all the write-ups here but it’s important that you have an understanding of what we are meant to-do on that day.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- Photo Album Starts Here -->
+                  <div class="box-nameplate profile-plate">
+                    <div class="row head-plate plate-heading">
+                      <div class="col-lg-10 title-1">
+                        <h5><strong>Photo Album</strong></h5>
+                        <p class="title-3 text-small">Sunday October 9, 2018</p>
+                      </div>
+                      <div class="col-lg-2 text-lg-right title-2">
+                        <a href="#" class="nav-link">
+                          <i class="fas fa-pencil-alt"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="row-1">
+
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="img/sworte_wp1.jpg" alt="First slide">
+                              <!-- <div class="carousel-caption d-none d-md-block">
+                                <h5>AHJKJSDK</h5>
+                                <p>Ajdkkdkd Ajkfkf Ajhkdl</p>
+                              </div> -->
+                            </div>
+                            <div class="carousel-item">
+                             <img class="d-block w-100" src="img/sworte_wp.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                             <img class="d-block w-100" src="img/sworte_wp1.jpg" alt="Second slide">
+                            </div> 
+                            <div class="carousel-item">
+                             <img class="d-block w-100" src="img/sworte_wp.jpg" alt="Second slide">
+                            </div>  
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="img/sworte_wp1.jpg" alt="Third slide">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                    </div>
+                  </div>
+                 <!-- Photo Album Ends Here -->
+
+
+                <!-- Biopic Starts Here -->
+                <div class="box-nameplate profile-plate">
+                  <div class="row head-plate plate-heading">
+                    <div class="col-lg-10 title-1">
+                      <h5><strong>Biopic</strong></h5>
+                      <p class="title-3 text-small">Story of my Life</p>
+                    </div>
+                    <div class="col-lg-2 text-lg-right title-2">
+                      <a href="#" class="nav-link">
+                        <i class="fas fa-pencil-alt"></i>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="row-1">
+                    <div class="container gal-container-x">
+                      <div class="row">
+                        <!-- First Col Starts -->
+                          <div class="col-md-4 col-sm-6 co-xs-12 gal-item-x">
+                            <div class="box-x">
+                              <div class="x-1">
+                                <a href="#" data-toggle="modal" data-target="#myModal1">
+                                  <img src="img/sworte_wp.jpg" alt="" class="img-dp-33 img-fluid">
+                                  <div class="col-md-12 description-1-x">
+                                    <h5 class="text-small">Family</h5>
+                                  </div>
+                                </a>
+                              </div>
+                              <div class="modal fade" id="myModal1" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header-1 border-bottom-0 navbar navbar-expand-sm bg-light ">
+                                      <div class="desc-x">
+                                        <h5><strong>Family</strong></h5>
+                                      </div>
+                                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                                      
+                                    </div>
+                                      <div class="modal-body">
+                                          <div class="panel-body" >
+                                            <div class="row">
+                                              <div class="col-lg-8 x-2">
+                                                <img src="img/sworte_wp.jpg" alt="" class="d-block dp w-100 h-x">
+                                              </div>
+                                              <div class="col-lg-4 x-3">
+                                                  <div class="description-x">
+                                                    <p><i class="fa fa-hashtag"></i></p>
+                                                    <p>This is the second one on my Gallery. Off pages SEO takes into account your in-bound links. The amount and quality of them.</p>
+                                                  </div>
+
+                                                  <div class="row-11 mt-5 ">
+                                                    <div class="gal-contr">
+                                                      <button class="btn btn-warning btn-modal btn-prev">
+                                                        <span class="fa  fa-arrow-circle-o-left"></span>
+                                                      </button>
+                                                    
+                                                      <button class="btn btn-success btn-modal xtr-1 btn-next"><span class="fa  fa-arrow-circle-o-right"></span>
+                                                      </button>
+                                                    </div>
+                                                  </div>
+
+                                              </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- First Col Ends -->
+
+                          <!-- Second Col Starts -->
+                          <div class="col-md-4 col-sm-6 co-xs-12 gal-item-x">
+                            <div class="box-x">
+                              <div class="x-1">
+                                <a href="#" data-toggle="modal" data-target="#myModal2">
+                                  <img src="img/sworte_wp1.jpg" alt="" class="img-dp-33 img-fluid">
+                                  <div class="col-md-12 description-1-x">
+                                    <h5 class="text-small">Early Life</h5>
+                                  </div>
+                                </a>
+                              </div>
+
+                              <div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header-1 border-bottom-0 navbar navbar-expand-sm bg-light ">
+                                      <div class="desc-x">
+                                        <h5><strong>Early Life</strong></h5>
+                                      </div>
+                                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                                      
+                                    </div>
+                                      <div class="modal-body">
+                                          <div class="panel-body" >
+                                            <div class="row">
+                                              <div class="col-lg-8 x-2">
+                                                <img src="img/sworte_wp1.jpg" alt="" class="d-block dp w-100 h-x">
+                                              </div>
+                                              <div class="col-lg-4 x-3">
+                                                  <div class="description-x">
+                                                    <p><i class="fa fa-hashtag"></i></p>
+                                                    <p>This is the second one on my Gallery. Off pages SEO takes into account your in-bound links. The amount and quality of them.</p>
+                                                  </div>
+
+                                                  <div class="row-11 mt-5 ">
+                                                    <div class="gal-contr">
+                                                      <button class="btn btn-warning btn-modal btn-prev">
+                                                        <span class="fa  fa-arrow-circle-o-left"></span>
+                                                      </button>
+                                                    
+                                                      <button class="btn btn-success btn-modal xtr-1 btn-next"><span class="fa  fa-arrow-circle-o-right"></span>
+                                                      </button>
+                                                    </div>
+                                                  </div>
+
+                                              </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Secind Col Ends -->
+
+                          <!-- Third Col Starts -->
+                          <div class="col-md-4 col-sm-6 co-xs-12 gal-item-x">
+                            <div class="box-x">
+                              <div class="x-1">
+                                <a href="#" data-toggle="modal" data-target="#myModal3">
+                                  <img src="img/sworte_wp.jpg" alt="" class="img-dp-33 img-fluid">
+                                  <div class="col-md-12 description-1-x">
+                                    <h5 class="text-small">Low Points</h5>
+                                  </div>
+                                </a>
+                              </div>
+                              <div class="modal fade" id="myModal3" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header-1 border-bottom-0 navbar navbar-expand-sm bg-light ">
+                                      <div class="desc-x">
+                                        <h5><strong>Low Points</strong></h5>
+                                      </div>
+                                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                                      
+                                    </div>
+                                      <div class="modal-body">
+                                          <div class="panel-body" >
+                                            <div class="row">
+                                              <div class="col-lg-8 x-2">
+                                                <img src="img/sworte_wp.jpg" alt="" class="d-block dp w-100 h-x">
+                                              </div>
+                                              <div class="col-lg-4 x-3">
+                                                  <div class="description-x">
+                                                    <p><i class="fa fa-hashtag"></i></p>
+                                                    <p>This is the second one on my Gallery. Off pages SEO takes into account your in-bound links. The amount and quality of them.</p>
+                                                  </div>
+
+                                                  <div class="row-11 mt-5 ">
+                                                    <div class="gal-contr">
+                                                      <button class="btn btn-warning btn-modal btn-prev">
+                                                        <span class="fa  fa-arrow-circle-o-left"></span>
+                                                      </button>
+                                                    
+                                                      <button class="btn btn-success btn-modal xtr-1 btn-next"><span class="fa  fa-arrow-circle-o-right"></span>
+                                                      </button>
+                                                    </div>
+                                                  </div>
+
+                                              </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Third Col Ends -->
+                      </div>
+
+                      <div class="row">
+                          <!-- First Col Starts -->
+                          <div class="col-md-4 col-sm-6 co-xs-12 gal-item-x">
+                            <div class="box-x">
+                              <div class="x-1">
+                                <a href="#" data-toggle="modal" data-target="#myModal4">
+                                  <img src="img/sworte_wp1.jpg" alt="" class="img-dp-33 img-fluid">
+                                  <div class="col-md-12 description-1-x">
+                                    <h5 class="text-small">High Points</h5>
+                                  </div>
+                                </a>
+                                
+                              </div>
+                              <div class="modal fade" id="myModal4" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header-1 border-bottom-0 navbar navbar-expand-sm bg-light ">
+                                      <div class="desc-x">
+                                        <h5><strong>Family</strong></h5>
+                                      </div>
+                                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                                      
+                                    </div>
+                                      <div class="modal-body">
+                                          <div class="panel-body" >
+                                            <div class="row">
+                                              <div class="col-lg-8 x-2">
+                                                <img src="img/sworte_wp1.jpg" alt="" class="d-block dp w-100 h-x">
+                                              </div>
+                                              <div class="col-lg-4 x-3">
+                                                  <div class="description-x">
+                                                    <p><i class="fa fa-hashtag"></i></p>
+                                                    <p>This is the second one on my Gallery. Off pages SEO takes into account your in-bound links. The amount and quality of them.</p>
+                                                  </div>
+
+                                                  <div class="row-11 mt-5 ">
+                                                    <div class="gal-contr">
+                                                      <button class="btn btn-warning btn-modal btn-prev">
+                                                        <span class="fa  fa-arrow-circle-o-left"></span>
+                                                      </button>
+                                                    
+                                                      <button class="btn btn-success btn-modal xtr-1 btn-next"><span class="fa  fa-arrow-circle-o-right"></span>
+                                                      </button>
+                                                    </div>
+                                                  </div>
+
+                                              </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- First Col Ends -->
+
+                          <!-- Second Col Starts -->
+                          <div class="col-md-4 col-sm-6 co-xs-12 gal-item-x">
+                            <div class="box-x">
+                              <div class="x-1">
+                                <a href="#" data-toggle="modal" data-target="#myModal5">
+                                  <img src="img/sworte_wp.jpg" alt="" class="img-dp-33 img-fluid">
+                                  <div class="col-md-12 description-1-x">
+                                    <h5 class="text-small">Career</h5>
+                                  </div>
+                                </a>
+                              </div>
+                              <div class="modal fade" id="myModal5" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header-1 border-bottom-0 navbar navbar-expand-sm bg-light ">
+                                      <div class="desc-x">
+                                        <h5><strong>Family</strong></h5>
+                                      </div>
+                                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                                      
+                                    </div>
+                                      <div class="modal-body">
+                                          <div class="panel-body" >
+                                            <div class="row">
+                                              <div class="col-lg-8 x-2">
+                                                <img src="img/sworte_wp.jpg" alt="" class="d-block dp w-100 h-x">
+                                              </div>
+                                              <div class="col-lg-4 x-3">
+                                                  <div class="description-x">
+                                                    <p><i class="fa fa-hashtag"></i></p>
+                                                    <p>This is the second one on my Gallery. Off pages SEO takes into account your in-bound links. The amount and quality of them.</p>
+                                                  </div>
+
+                                                  <div class="row-11 mt-5 ">
+                                                    <div class="gal-contr">
+                                                      <button class="btn btn-warning btn-modal btn-prev">
+                                                        <span class="fa  fa-arrow-circle-o-left"></span>
+                                                      </button>
+                                                    
+                                                      <button class="btn btn-success btn-modal xtr-1 btn-next"><span class="fa  fa-arrow-circle-o-right"></span>
+                                                      </button>
+                                                    </div>
+                                                  </div>
+
+                                              </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Secind Col Ends -->
+
+                          <!-- Third Col Starts -->
+                          <div class="col-md-4 col-sm-6 co-xs-12 gal-item-x">
+                            <div class="box-x">
+                              <div class="x-1">
+                                <a href="#" data-toggle="modal" data-target="#myModal6">
+                                  <img src="img/sworte_wp1.jpg" alt="" class="img-dp-33 img-fluid">
+                                  <div class="col-md-12 description-1-x">
+                                    <h5 class="text-small">Early Life</h5>
+                                  </div>
+                                </a>
+                              </div>
+                              <div class="modal fade" id="myModal6" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header-1 border-bottom-0 navbar navbar-expand-sm bg-light ">
+                                      <div class="desc-x">
+                                        <h5><strong>Family</strong></h5>
+                                      </div>
+                                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                                      
+                                    </div>
+                                      <div class="modal-body">
+                                          <div class="panel-body" >
+                                            <div class="row">
+                                              <div class="col-lg-8 x-2">
+                                                <img src="img/sworte_wp1.jpg" alt="" class="d-block dp w-100 h-x">
+                                              </div>
+                                              <div class="col-lg-4 x-3">
+                                                  <div class="description-x">
+                                                    <p><i class="fa fa-hashtag"></i></p>
+                                                    <p>This is the second one on my Gallery. Off pages SEO takes into account your in-bound links. The amount and quality of them.</p>
+                                                  </div>
+
+                                                  <div class="row-11 mt-5 ">
+                                                    <div class="gal-contr">
+                                                      <button class="btn btn-warning btn-modal btn-prev">
+                                                        <span class="fa  fa-arrow-circle-o-left"></span>
+                                                      </button>
+                                                    
+                                                      <button class="btn btn-success btn-modal xtr-1 btn-next"><span class="fa  fa-arrow-circle-o-right"></span>
+                                                      </button>
+                                                    </div>
+                                                  </div>
+
+                                              </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Third Col Ends -->
+                      </div>
+
+                      <div class="row">
+                          <!-- First Col Starts -->
+                          <div class="col-md-4 col-sm-6 co-xs-12 gal-item-x">
+                            <div class="box-x">
+                              <div class="x-1">
+                                <a href="#" data-toggle="modal" data-target="#myModal7">
+                                  <img src="img/sworte_wp.jpg" alt="" class="img-dp-33 img-fluid">
+                                  <div class="col-md-12 description-1-x">
+                                    <h5 class="text-small">Early Life</h5>
+                                  </div>
+                                </a>
+                                
+                              </div>
+                              <div class="modal fade" id="myModal7" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header-1 border-bottom-0 navbar navbar-expand-sm bg-light ">
+                                      <div class="desc-x">
+                                        <h5><strong>Family</strong></h5>
+                                      </div>
+                                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                                      
+                                    </div>
+                                      <div class="modal-body">
+                                          <div class="panel-body" >
+                                            <div class="row">
+                                              <div class="col-lg-8 x-2">
+                                                <img src="img/sworte_wp.jpg" alt="" class="d-block dp w-100 h-x">
+                                              </div>
+                                              <div class="col-lg-4 x-3">
+                                                  <div class="description-x">
+                                                    <p><i class="fa fa-hashtag"></i></p>
+                                                    <p>This is the second one on my Gallery. Off pages SEO takes into account your in-bound links. The amount and quality of them.</p>
+                                                  </div>
+
+                                                  <div class="row-11 mt-5 ">
+                                                    <div class="gal-contr">
+                                                      <button class="btn btn-warning btn-modal btn-prev">
+                                                        <span class="fa  fa-arrow-circle-o-left"></span>
+                                                      </button>
+                                                    
+                                                      <button class="btn btn-success btn-modal xtr-1 btn-next"><span class="fa  fa-arrow-circle-o-right"></span>
+                                                      </button>
+                                                    </div>
+                                                  </div>
+
+                                              </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- First Col Ends -->
+
+                          <!-- Second Col Starts -->
+                          <div class="col-md-4 col-sm-6 co-xs-12 gal-item-x">
+                            <div class="box-x">
+                              <div class="x-1">
+                                <a href="#" data-toggle="modal" data-target="#myModal8">
+                                  <img src="img/sworte_wp1.jpg" alt="" class="img-dp-33 img-fluid">
+                                  <div class="col-md-12 description-1-x">
+                                    <h5 class="text-small">Early Life</h5>
+                                  </div>
+                                </a>
+                                
+                              </div>
+                              <div class="modal fade" id="myModal8" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header-1 border-bottom-0 navbar navbar-expand-sm bg-light ">
+                                      <div class="desc-x">
+                                        <h5><strong>Family</strong></h5>
+                                      </div>
+                                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                                      
+                                    </div>
+                                      <div class="modal-body">
+                                          <div class="panel-body" >
+                                            <div class="row">
+                                              <div class="col-lg-8 x-2">
+                                                <img src="img/sworte_wp1.jpg" alt="" class="d-block dp w-100 h-x">
+                                              </div>
+                                              <div class="col-lg-4 x-3">
+                                                  <div class="description-x">
+                                                    <p><i class="fa fa-hashtag"></i></p>
+                                                    <p>This is the second one on my Gallery. Off pages SEO takes into account your in-bound links. The amount and quality of them.</p>
+                                                  </div>
+
+                                                  <div class="row-11 mt-5 ">
+                                                    <div class="gal-contr">
+                                                      <button class="btn btn-warning btn-modal btn-prev">
+                                                        <span class="fa  fa-arrow-circle-o-left"></span>
+                                                      </button>
+                                                    
+                                                      <button class="btn btn-success btn-modal xtr-1 btn-next"><span class="fa  fa-arrow-circle-o-right"></span>
+                                                      </button>
+                                                    </div>
+                                                  </div>
+
+                                              </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Secind Col Ends -->
+
+                          <!-- Third Col Starts -->
+                          <div class="col-md-4 col-sm-6 co-xs-12 gal-item-x">
+                            <div class="box-x">
+                              <div class="x-1">
+                                <a href="#" data-toggle="modal" data-target="#myModal9">
+                                  <img src="img/sworte_wp.jpg" alt="" class="img-dp-33 img-fluid">
+                                  <div class="col-md-12 description-1-x">
+                                    <h5 class="text-small">Early Life</h5>
+                                  </div>
+                                </a>
+                                
+                              </div>
+                              <div class="modal fade" id="myModal9" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header-1 border-bottom-0 navbar navbar-expand-sm bg-light ">
+                                      <div class="desc-x">
+                                        <h5><strong>Family</strong></h5>
+                                      </div>
+                                      <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                                      
+                                    </div>
+                                      <div class="modal-body">
+                                          <div class="panel-body" >
+                                            <div class="row">
+                                              <div class="col-lg-8 x-2">
+                                                <img src="img/sworte_wp.jpg" alt="" class="d-block dp w-100 h-x">
+                                              </div>
+                                              <div class="col-lg-4 x-3">
+                                                  <div class="description-x">
+                                                    <p><i class="fa fa-hashtag"></i></p>
+                                                    <p>This is the second one on my Gallery. Off pages SEO takes into account your in-bound links. The amount and quality of them.</p>
+                                                  </div>
+
+                                                  <div class="row-11 mt-5 ">
+                                                    <div class="gal-contr">
+                                                      <button class="btn btn-warning btn-modal btn-prev">
+                                                        <span class="fa  fa-arrow-circle-o-left"></span>
+                                                      </button>
+                                                    
+                                                      <button class="btn btn-success btn-modal xtr-1 btn-next"><span class="fa  fa-arrow-circle-o-right"></span>
+                                                      </button>
+                                                    </div>
+                                                  </div>
+
+                                              </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Third Col Ends -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Biopic Ends Here -->
+
+
+                <!-- Timeline Starts Here -->
+                <div class="box-nameplate profile-plate">
+                  <div class="row head-plate plate-heading">
+                    <div class="col-lg-10 title-1">
+                      <h5><strong>Memorable Dates</strong></h5>
+                      <p class="title-3 text-small">Sunday October 9, 2018</p>
+                    </div>
+                    <div class="col-lg-2 text-lg-right title-2">
+                      <a href="#" class="nav-link">
+                        <i class="fas fa-pencil-alt"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row-1">
+                    <div class="qa-message-list" id="wallmessages">
+                        <div class="message-item" id="m16">
+                          <div class="message-inner">
+                            <div class="message-head clearfix">
+                              <div class="user-detail">
+                                <h5 class="handle">Oleg Kolesnichenko</h5>
+                                <div class="post-meta">
+                                  <div class="asker-meta">
+                                    <span class="qa-message-what"></span>
+                                    <span class="qa-message-when">
+                                      <span class="qa-message-when-data">Jan 21</span>
+                                    </span>
+                                    <span class="qa-message-who">
+                                      <span class="qa-message-who-pad">by </span>
+                                      <span class="qa-message-who-data"><a href="./index.php?qa=user&qa_1=Oleg+Kolesnichenko">Oleg Kolesnichenko</a></span>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="qa-message-content">
+                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                        </div>
+                    </div>
+          
+                    <div class="message-item" id="m9">
+                      <div class="message-inner">
+                        <div class="message-head clearfix">
+                          <div class="user-detail">
+                            <h5 class="handle">amiya</h5>
+                            <div class="post-meta">
+                              <div class="asker-meta">
+                                <span class="qa-message-what"></span>
+                                <span class="qa-message-when">
+                                  <span class="qa-message-when-data">Nov 24, 2013</span>
+                                </span>
+                                <span class="qa-message-who">
+                                  <span class="qa-message-who-pad">by </span>
+                                  <span class="qa-message-who-data"><a href="./index.php?qa=user&qa_1=amiya">amiya</a></span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="qa-message-content">
+                          <img src="img/sworte_wp.jpg" alt="" class="img-fluid">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </div>
+                    </div>
+                  </div>
+          
+                  <div class="message-item" id="m7">
+                    <div class="message-inner">
+                      <div class="message-head clearfix">
+                        <div class="user-detail">
+                          <h5 class="handle">russell</h5>
+                          <div class="post-meta">
+                            <div class="asker-meta">
+                              <span class="qa-message-what"></span>
+                              <span class="qa-message-when">
+                                <span class="qa-message-when-data">Oct 25, 2013</span>
+                              </span>
+                              <span class="qa-message-who">
+                                <span class="qa-message-who-pad">by </span>
+                                <span class="qa-message-who-data"><a href="./index.php?qa=user&qa_1=russell">russell</a></span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="qa-message-content">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      </div>
+                  </div>
+                  </div>
+            
+                  <div class="message-item" id="m6">
+                    <div class="message-inner">
+                      <div class="message-head clearfix">
+                        <div class="user-detail">
+                          <h5 class="handle">juggornot</h5>
+                          <div class="post-meta">
+                            <div class="asker-meta">
+                              <span class="qa-message-what"></span>
+                              <span class="qa-message-when">
+                                <span class="qa-message-when-data">Oct 24, 2013</span>
+                              </span>
+                              <span class="qa-message-who">
+                                <span class="qa-message-who-pad">by </span>
+                                <span class="qa-message-who-data"><a href="./index.php?qa=user&qa_1=juggornot">juggornot</a></span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="qa-message-content">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="message-item" id="m5">
+                    <div class="message-inner">
+                      <div class="message-head clearfix">
+                        <div class="user-detail">
+                          <h5 class="handle">one_eyed</h5>
+                          <div class="post-meta">
+                            <div class="asker-meta">
+                              <span class="qa-message-what"></span>
+                              <span class="qa-message-when">
+                                <span class="qa-message-when-data">Oct 24, 2013</span>
+                              </span>
+                              <span class="qa-message-who">
+                                <span class="qa-message-who-pad">by </span>
+                                <span class="qa-message-who-data"><a href="./index.php?qa=user&qa_1=one_eyed">one_eyed</a></span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="qa-message-content">
+                        <img src="img/sworte_wp1.jpg" alt="" class="img-fluid">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      </div>
+                    </div>
+                  </div>              
+                    </div>
+                      </div>
+                </div>
+                <!-- Timeline Ends Here -->
+
+
+                <!-- Testimonials Start Here -->
+                <div class="box-nameplate profile-plate">
+                  <div class="row head-plate plate-heading">
+                    <div class="col-lg-10 title-1">
+                      <h5><strong>Testimonial</strong></h5>
+                      <p class="title-3 text-small">Sunday October 9, 2018</p>
+                    </div>
+                    <!-- <div class="col-lg-2 text-lg-right title-2">
+                      <a href="#" class="nav-link-1">
+                        <i class="fas fa-pencil-alt"></i>
+                      </a>
+                    </div> -->
+                  </div>
+                  <div class="row-1">
+                    <div class="">
+                      <h6><strong>Aremu Ibraheem Adephabiola</strong></h6>
+                      <p class="text-small">The man I am</p>
+                      <p>
+                        The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat. Note that you might not comprehend all the write-ups here but it’s important that you have an understanding of what we are meant to-do on that day.
+                      </p>
+                    </div>
+                    <div class="col-lg-12 ref-box form-1">
+                      <div class="row-1">
+                        <div class="col-lg-2 form-1">
+                          <img src="img/sworte_dp.jpg" alt="" class="img-dp-1 dp img-fluid-1 pull-right">
+                        </div>
+                        <div class="col-lg-10 form">
+                          <div class="autograph">
+                            <p>Aremu Ibraheem</p>
+                          </div>
+                          <p class="text-small">Family/ Colleague</p>
+                          <a href="#" class="dropdown-item-2">Aremu Ibraheem Adephabiola</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12 text-center text-lg-center social-rates">
+                      <ul class="list-inline social mb-0">
+                        <li class="list-inline-item">
+                          <!-- <p class="list-inline-item">consensus: </p> -->
+                          <a href="#" class="nav-link"><i class="fa fa-comments"></i> comments <span class="badge-1 text-small" data-count="12">12</span>
+                          </a>
+                          <a href="#" class="nav-link con-check"><i class="fa fa-check"></i> agree</a>
+                          <a href="#" class="nav-link con-times"><i class="fa fa-times"></i> disagree</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <!-- <div class="col-lg-12 comments">
+                      <div class="row-1">
+                        <div class="col-lg-2 form-1">
+                          <img src="img/sworte_dp1.jpg" alt="" class="img-dp-1 dp img-fluid-1 pull-right">
+                        </div>
+                        <div class="col-lg-10 comment-box">
+                          <a href="#" class="dropdown-item-2">Aremu Ibraheem Adephabiola</a>
+                          <p class="text-small">The man I am</p>
+                          <p>
+                            The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat. Note that you might not comprehend all the write-ups here but it’s important that you have an understanding of what we are meant to-do on that day.
+                          </p>
+                        </div>
+                      </div>                      
+                    </div> -->
+                  </div>
+                </div>
+                <!-- Testimonial Ends Here -->
+
+                <!-- Testimonial Starts Here -->
+                <div class="box-nameplate profile-plate">
+                  <div class="row head-plate plate-heading">
+                    <div class="col-lg-10 title-1">
+                      <h5><strong>Testimonial</strong></h5>
+                      <p class="title-3 text-small">Sunday October 9, 2018</p>
+                    </div>
+                    <!-- <div class="col-lg-2 text-lg-right title-2">
+                      <a href="#" class="nav-link-1">
+                        <i class="fas fa-pencil-alt"></i>
+                      </a>
+                    </div> -->
+                  </div>
+                  <div class="row-1">
+                    <div class="">
+                      <h6><strong>Aremu Ibraheem Adephabiola</strong></h6>
+                      <p class="text-small">The man I am</p>
+                      <p>
+                        The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat. Note that you might not comprehend all the write-ups here but it’s important that you have an understanding of what we are meant to-do on that day.
+                      </p>
+                    </div>
+                    <div class="col-lg-12 ref-box form-1">
+                      <div class="row-1">
+                        <div class="col-lg-2 form-1">
+                          <img src="img/sworte_dp.jpg" alt="" class="img-dp-1 dp img-fluid-1 pull-right">
+                        </div>
+                        <div class="col-lg-10 form">
+                          <div class="autograph">
+                            <p>Aremu Ibraheem</p>
+                          </div>
+                          <p class="text-small">Family/ Colleague</p>
+                          <a href="#" class="dropdown-item-2">Aremu Ibraheem Adephabiola</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12 text-center text-lg-center social-rates">
+                      <ul class="list-inline social mb-0">
+                        <li class="list-inline-item">
+                          <!-- <p class="list-inline-item">consensus: </p> -->
+                          <a href="#" class="nav-link"><i class="fa fa-comments"></i> comments <span class="badge-1 text-small" data-count="12">12</span>
+                          </a>
+                          <a href="#" class="nav-link con-check"><i class="fa fa-check"></i> agree</a>
+                          <a href="#" class="nav-link con-times"><i class="fa fa-times"></i> disagree</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="col-lg-12 comments">
+                      <div class="row-1">
+                        <div class="col-lg-2 form-1">
+                          <img src="img/sworte_dp1.jpg" alt="" class="img-dp-1 dp img-fluid-1 pull-right">
+                        </div>
+                        <div class="col-lg-10 comment-box">
+                          <a href="#" class="dropdown-item-2">Aremu Ibraheem Adephabiola</a>
+                          <p class="text-small">The man I am</p>
+                          <p>
+                            The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat. Note that you might not comprehend all the write-ups here but it’s important that you have an understanding of what we are meant to-do on that day.
+                          </p>
+                        </div>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+                <!-- Testimonial Ends Here -->
+
+                <!-- Testimonial Starts Here -->
+                <div class="box-nameplate profile-plate">
+                  <div class="row head-plate plate-heading">
+                    <div class="col-lg-10 title-1">
+                      <h5><strong>Testimonial</strong></h5>
+                      <p class="title-3 text-small">Sunday October 9, 2018</p>
+                    </div>
+                   <!--  <div class="col-lg-2 text-lg-right title-2">
+                      <a href="#" class="nav-link-1">
+                        <i class="fas fa-pencil-alt"></i>
+                      </a>
+                    </div> -->
+                  </div>
+                  <div class="row-1">
+                    <div class="">
+                      <h6><strong>Aremu Ibraheem Adephabiola</strong></h6>
+                      <p class="text-small">The man I am</p>
+                      <img src="img/sworte_wp.jpg" alt="" class="img-fluid">
+                      <p>
+                        The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat. Note that you might not comprehend all the write-ups here but it’s important that you have an understanding of what we are meant to-do on that day.
+                      </p>
+                    </div>
+                    <div class="col-lg-12 ref-box form-1">
+                      <div class="row-1">
+                        <div class="col-lg-2 form-1">
+                          <img src="img/sworte_dp.jpg" alt="" class="img-dp-1 dp img-fluid-1 pull-right">
+                        </div>
+                        <div class="col-lg-10 form">
+                          <div class="autograph">
+                            <p>Aremu Ibraheem</p>
+                          </div>
+                          <p class="text-small">Family/ Colleague</p>
+                          <a href="#" class="dropdown-item-2">Aremu Ibraheem Adephabiola</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12 text-center text-lg-center social-rates">
+                        <ul class="list-inline social mb-0">
+                          <li class="list-inline-item">
+                            <!-- <p class="list-inline-item">consensus: </p> -->
+                            <a href="#" class="nav-link"><i class="fa fa-comments"></i> comments <span class="badge-1 text-small" data-count="12">12</span>
+                            </a>
+                            <a href="#" class="nav-link con-check"><i class="fa fa-check"></i> agree</a>
+                            <a href="#" class="nav-link con-times"><i class="fa fa-times"></i> disagree</a>
+                          </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-12 comments">
+                      <div class="row-1">
+                        <div class="col-lg-2 form-1">
+                          <img src="img/sworte_dp1.jpg" alt="" class="img-dp-1 dp img-fluid-1 pull-right">
+                        </div>
+                        <div class="col-lg-10 comment-box">
+                          <a href="#" class="dropdown-item-2">Aremu Ibraheem Adephabiola</a>
+                          <p class="text-small">The man I am</p>
+                          <p>
+                            The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat. Note that you might not comprehend all the write-ups here but it’s important that you have an understanding of what we are meant to-do on that day.
+                          </p>
+                        </div>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+                <!-- Testimonial Ends Here -->
+
+               <!-- Testimonial Starts Here -->
+                <div class="box-nameplate profile-plate">
+                  <div class="row head-plate plate-heading">
+                    <div class="col-lg-10 title-1">
+                      <h5><strong>Testimonial</strong></h5>
+                      <p class="title-3 text-small">Sunday October 9, 2018</p>
+                    </div>
+                    <!-- <div class="col-lg-2 text-lg-right title-2">
+                      <a href="#" class="nav-link-1">
+                        <i class="fas fa-pencil-alt"></i>
+                      </a>
+                    </div> -->
+                  </div>
+                  <div class="row-1">
+                    <div class="">
+                      <h6><strong>Aremu Ibraheem Adephabiola</strong></h6>
+                      <p class="text-small">The man I am</p>
+                      <p>
+                        The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat. Note that you might not comprehend all the write-ups here but it’s important that you have an understanding of what we are meant to-do on that day.
+                      </p>
+                    </div>
+                    <div class="col-lg-12 ref-box form-1">
+                      <div class="row-1">
+                        <div class="col-lg-2 form-1">
+                          <img src="img/sworte_dp.jpg" alt="" class="img-dp-1 dp img-fluid-1 pull-right">
+                        </div>
+                        <div class="col-lg-10 form">
+                          <div class="autograph">
+                            <p>Aremu Ibraheem</p>
+                          </div>
+                          <p class="text-small">Family/ Colleague</p>
+                          <a href="#" class="dropdown-item-2">Aremu Ibraheem Adephabiola</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12 text-center text-lg-center social-rates">
+                        <ul class="list-inline social mb-0">
+                          <li class="list-inline-item">
+                            <!-- <p class="list-inline-item">consensus: </p> -->
+                            <a href="#" class="nav-link"><i class="fa fa-comments"></i> comments <span class="badge-1 text-small" data-count="12">12</span>
+                            </a>
+                            <a href="#" class="nav-link con-check"><i class="fa fa-check"></i> agree</a>
+                            <a href="#" class="nav-link con-times"><i class="fa fa-times"></i> disagree</a>
+                          </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-12 comments">
+                      <div class="row-1">
+                        <div class="col-lg-2 form-1">
+                          <img src="img/sworte_dp1.jpg" alt="" class="img-dp-1 dp img-fluid-1 pull-right">
+                        </div>
+                        <div class="col-lg-10 comment-box">
+                          <a href="#" class="dropdown-item-2">Aremu Ibraheem Adephabiola</a>
+                          <p class="text-small">The man I am</p>
+                          <p>
+                            The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat. Note that you might not comprehend all the write-ups here but it’s important that you have an understanding of what we are meant to-do on that day.
+                          </p>
+                        </div>
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+                <!-- Testimonials End Here -->
+              </div>
+
+
+              <!-- Testimony Side bar Starts Here -->
+              <div class="col-lg-4 mt-lg-0">
+                <div class="box-nameplate profile-plate test-moniy">
+                  <div class="row head-plate plate-heading">
+                    <div class="col-lg-10 title-1">
+                      <h5><strong>Testimony</strong></h5>
+                      <p class="title-3 text-small">Sunday October 9, 2018</p>
+                    </div>
+                    <div class="col-lg-2 text-lg-right title-21">
+                      <!-- <a href="#" class="nav-link-1">
+                        <i class="fa fa-minus-square-o"></i>
+                      </a> -->
+                    </div>
+                  </div>
+
+                    <div class="row-x" method="post" action="">
+                    <form class="form-horizontal" role="form">
+                      <div class="form-group-1 test-1 btn-style-2">
+                        <textarea name="testimony" placeholder="Share your opinion of Aremu Ibraheem with the world here." class="form-control test-2"></textarea>
+                      </div>
+
+                        <div class="form-group inputDnD">
+                          <input type="file" class="form-control-file text-primary" id="inputFile" accept="image/*" onchange="readUrl(this)" data-title="Drop a reference image">
+                        </div>
+
+                        <button class="btn btn-sworte-1 btn-style">
+                          <span class="fa fa-paper-plane-o"></span>
+                        </button>
+                    </form>
+                  </div>
+                  </div>
+                <!-- Testimony Side bar Ends Here -->
+
+
+                <!-- Identity Starts Here -->
+                <div class="box-nameplate profile-plate">
+                  <div class="row head-plate plate-heading">
+                    <div class="col-lg-10 title-1">
+                      <h5><strong>Identity</strong></h5>
+                      <p class="title-3 text-small">Sunday October 9, 2018</p>
+                    </div>
+                    <div class="col-lg-2 text-lg-right title-21">
+                      <!-- <a href="#" class="nav-link-1">
+                        <i class="fa fa-magic"></i>
+                      </a> -->
+                    </div>
+                  </div>
+                    <!-- <div class="container"> -->
+                    <div class="row-table">
+                        <table class="table-head">
+                            <tr>
+                              <th><h6>Career</h6></th>
+                              <th></th>
+                            </tr>
+                            <tr>
+                              <td class="td-11"><strong>Title</strong></td>
+                              <td  class="td-12">2010</td>
+                            </tr>
+                            <tr>
+                              <td><h6>Title</h6></td>
+                              <td>2010</td>
+                            </tr>
+                            <tr>
+                              <td><strong>Title</strong></td>
+                              <td>2010</td>
+                            </tr>
+                            <tr>
+                              <td><strong>Title</strong></td>
+                              <td>2010</td>
+                            </tr>
+                        </table>
+
+                        <table class="table-head">
+                            <tr>
+                              <th><h6>Family</h6></th>
+                              <th></th>
+                            </tr>
+                            <tr>
+                              <td class="td-11"><strong>Title</strong></td>
+                              <td  class="td-12">2010</td>
+                            </tr>
+                            <tr>
+                              <td><strong>Title</strong></td>
+                              <td>2010</td>
+                            </tr>
+                            <tr>
+                              <td><strong>Title</strong></td>
+                              <td>2010</td>
+                            </tr>
+                            <tr>
+                              <td><strong>Title</strong></td>
+                              <td>2010</td>
+                            </tr>
+                        </table>
+
+                        <table class="table-head">
+                            <tr>
+                              <th><h6>Achievements</h6></th>
+                              <th></th>
+                            </tr>
+                            <tr>
+                              <td class="td-11"><strong>Title</strong></td>
+                              <td  class="td-12">2010</td>
+                            </tr>
+                            <tr>
+                              <td><strong>Title</strong></td>
+                              <td>2010</td>
+                            </tr>
+                            <tr>
+                              <td><strong>Title</strong></td>
+                              <td>2010</td>
+                            </tr>
+                            <tr>
+                              <td><strong>Title</strong></td>
+                              <td>2010</td>
+                            </tr>
+                        </table>
+
+                        <table class="table-head">
+                            <tr>
+                              <th><h6>Mentions</h6></th>
+                              <th></th>
+                            </tr>
+                            <tr>
+                              <td class="td-11"><strong>Title</strong></td>
+                              <td  class="td-12">2010</td>
+                            </tr>
+                            <tr>
+                              <td><strong>Title</strong></td>
+                              <td>2010</td>
+                            </tr>
+                            <tr>
+                              <td><strong>Title</strong></td>
+                              <td>2010</td>
+                            </tr>
+                            <tr>
+                              <td><strong>Title</strong></td>
+                              <td>2010</td>
+                            </tr>
+                        </table>
+                      </div>
+                    <!-- </div> -->
+                </div>
+                <!-- Identity Ends Here -->
+
+
+                <!-- Network Starts Here -->
+                <div class="box-nameplate profile-plate">
+                  <div class="row head-plate plate-heading">
+                    <div class="col-lg-10 title-1">
+                      <h5><strong>Network</strong></h5>
+                      <p class="title-3 text-small">Sunday October 9, 2018</p>
+                    </div>
+                  </div>
+                  <div class="row-1">
+                    <div class="col-lg-4 img-size dropdown">
+                        <img src="img/sworte_dp.jpg" data-toggle="dropdown"  data-target="#" alt="" class="img-ntwk dp">
+                        <ul class="dropdown-menu" role="Menu" aria-labelledby="pages">
+                          <div class="dropdown-cover-1">
+                            <div class="row-1">
+                              <div class="col-lg-2 form-1">
+                                <img src="img/sworte_dp.jpg" alt="" class="img-dp-5 dp img-fluid-1 pull-right">
+                              </div>                           
+
+                              <div class="col-lg-10">
+                                <a href="" class="dropdown-item-2">
+                                  <p class="profile-name">Aremu Ibraheem Adephabiola</p>
+                                </a>
+                                <p class="text-small">Family/ Colleague</p>
+                                <p>
+                                  The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat.
+                                </p>
+                              </div>
+                            </div>                  
+                          </div>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 img-size dropdown">
+                      <img src="img/sworte_dp1.jpg" data-toggle="dropdown"  data-target="#" alt="" class="img-ntwk dp">
+                      <ul class="dropdown-menu" role="Menu" aria-labelledby="pages">
+                        <div class="dropdown-cover-1">
+                          <div class="row-1">
+                              <div class="col-lg-2 form-1">
+                                <img src="img/sworte_dp.jpg" alt="" class="img-dp-5 dp img-fluid-1 pull-right">
+                              </div>                           
+
+                              <div class="col-lg-10">
+                                <a href="" class="dropdown-item-2">
+                                  <p class="profile-name">Aremu Ibraheem Adephabiola</p>
+                                </a>
+                                <p class="text-small">Family/ Colleague</p>
+                                <p>
+                                  The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat.
+                                </p>
+                              </div>
+                            </div>                   
+                        </div>
+                      </ul>
+                    </div>
+                    <div class="col-lg-4 img-size dropdown">
+                      <img src="img/sworte_dp.jpg" data-toggle="dropdown"  data-target="#" alt="" class="img-ntwk dp">
+                        <ul class="dropdown-menu" role="Menu" aria-labelledby="pages">
+                          <div class="dropdown-cover-1">
+                            <div class="row-1">
+                              <div class="col-lg-2 form-1">
+                                <img src="img/sworte_dp.jpg" alt="" class="img-dp-5 dp img-fluid-1 pull-right">
+                              </div>                           
+
+                              <div class="col-lg-10">
+                                <a href="" class="dropdown-item-2">
+                                  <p class="profile-name">Aremu Ibraheem Adephabiola</p>
+                                </a>
+                                <p class="text-small">Family/ Colleague</p>
+                                <p>
+                                  The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat.
+                                </p>
+                              </div>
+                            </div>                 
+                          </div>
+                        </ul>
+                    </div>
+                  </div>
+                  <div class="row-1">
+                    <div class="col-lg-4 img-size dropdown">
+                      <img src="img/sworte_dp1.jpg" data-toggle="dropdown"  data-target="#" alt="" class="img-ntwk dp">
+                      <ul class="dropdown-menu" role="Menu" aria-labelledby="pages">
+                        <div class="dropdown-cover-1">
+                          <div class="row-1">
+                              <div class="col-lg-2 form-1">
+                                <img src="img/sworte_dp.jpg" alt="" class="img-dp-5 dp img-fluid-1 pull-right">
+                              </div>                           
+
+                              <div class="col-lg-10">
+                                <a href="" class="dropdown-item-2">
+                                  <p class="profile-name">Aremu Ibraheem Adephabiola</p>
+                                </a>
+                                <p class="text-small">Family/ Colleague</p>
+                                <p>
+                                  The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat.
+                                </p>
+                              </div>
+                            </div>                  
+                        </div>
+                      </ul>
+                    </div>
+                    <div class="col-lg-4 img-size dropdown">
+                      <img src="img/sworte_dp.jpg" data-toggle="dropdown"  data-target="#" alt="" class="img-ntwk dp">
+                      <ul class="dropdown-menu" role="Menu" aria-labelledby="pages">
+                        <div class="dropdown-cover-1">
+                          <div class="row-1">
+                              <div class="col-lg-2 form-1">
+                                <img src="img/sworte_dp.jpg" alt="" class="img-dp-5 dp img-fluid-1 pull-right">
+                              </div>                           
+
+                              <div class="col-lg-10">
+                                <a href="" class="dropdown-item-2">
+                                  <p class="profile-name">Aremu Ibraheem Adephabiola</p>
+                                </a>
+                                <p class="text-small">Family/ Colleague</p>
+                                <p>
+                                  The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat.
+                                </p>
+                              </div>
+                            </div>                  
+                        </div>
+                      </ul>
+                    </div>
+                    <div class="col-lg-4 img-size dropdown">
+                      <img src="img/sworte_dp1.jpg" data-toggle="dropdown"  data-target="#" alt="" class="img-ntwk dp">
+                      <ul class="dropdown-menu" role="Menu" aria-labelledby="pages">
+                        <div class="dropdown-cover-1">
+                          <div class="row-1">
+                              <div class="col-lg-2 form-1">
+                                <img src="img/sworte_dp.jpg" alt="" class="img-dp-5 dp img-fluid-1 pull-right">
+                              </div>                           
+
+                              <div class="col-lg-10">
+                                <a href="" class="dropdown-item-2">
+                                  <p class="profile-name">Aremu Ibraheem Adephabiola</p>
+                                </a>
+                                <p class="text-small">Family/ Colleague</p>
+                                <p>
+                                  The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat.
+                                </p>
+                              </div>
+                            </div>                  
+                        </div>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row-1">
+                    <div class="col-lg-4 img-size dropdown">
+                      <img src="img/sworte_dp.jpg" data-toggle="dropdown"  data-target="#" alt="" class="img-ntwk dp">
+                      <ul class="dropdown-menu" role="Menu" aria-labelledby="pages">
+                        <div class="dropdown-cover-1">
+                          <div class="row-1">
+                              <div class="col-lg-2 form-1">
+                                <img src="img/sworte_dp.jpg" alt="" class="img-dp-5 dp img-fluid-1 pull-right">
+                              </div>                           
+
+                              <div class="col-lg-10">
+                                <a href="" class="dropdown-item-2">
+                                  <p class="profile-name">Aremu Ibraheem Adephabiola</p>
+                                </a>
+                                <p class="text-small">Family/ Colleague</p>
+                                <p>
+                                  The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat.
+                                </p>
+                              </div>
+                            </div>                 
+                        </div>
+                      </ul>
+                    </div>
+                    <div class="col-lg-4 img-size dropdown">
+                      <img src="img/sworte_dp1.jpg" data-toggle="dropdown"  data-target="#" alt="" class="img-ntwk dp">
+                      <ul class="dropdown-menu" role="Menu" aria-labelledby="pages">
+                        <div class="dropdown-cover-1">
+                          <div class="row-1">
+                              <div class="col-lg-2 form-1">
+                                <img src="img/sworte_dp.jpg" alt="" class="img-dp-5 dp img-fluid-1 pull-right">
+                              </div>                           
+
+                              <div class="col-lg-10">
+                                <a href="" class="dropdown-item-2">
+                                  <p class="profile-name">Aremu Ibraheem Adephabiola</p>
+                                </a>
+                                <p class="text-small">Family/ Colleague</p>
+                                <p>
+                                  The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat.
+                                </p>
+                              </div>
+                            </div>                  
+                        </div>
+                      </ul>
+                    </div>
+                    <div class="col-lg-4 img-size dropdown">
+                      <img src="img/sworte_dp.jpg" data-toggle="dropdown"  data-target="#" alt="" class="img-ntwk dp">
+                      <ul class="dropdown-menu" role="Menu" aria-labelledby="pages">
+                        <div class="dropdown-cover-1">
+                          <div class="row-1">
+                              <div class="col-lg-2 form-1">
+                                <img src="img/sworte_dp.jpg" alt="" class="img-dp-5 dp img-fluid-1 pull-right">
+                              </div>                           
+
+                              <div class="col-lg-10">
+                                <a href="" class="dropdown-item-2">
+                                  <p class="profile-name">Aremu Ibraheem Adephabiola</p>
+                                </a>
+                                <p class="text-small">Family/ Colleague</p>
+                                <p>
+                                  The following are a list of our talking points or better yet, actions to be taking at the 2017 Staff retreat.
+                                </p>
+                              </div>
+                            </div>                  
+                        </div>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Network Ends Here -->
+              </div>
+            </div>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!-- Back to top Starts Here -->
+        <a href="#top" id="scrollUp" class="back-to-top" style="display: none;">
+          <i class="fa fa-angle-up"></i>
+        </a>
+      <!-- Back to Top Ends Here -->
+
+        <!-- JavaScript files-->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="../vendor/jquery/jquery.min.js"> </script>
+    <script src="../vendor/lightbox2/js/lightbox.js"></script>
+    <script src="../js/front.js"></script>    
+    <script src="../js/modal.js"></script>    
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/sworte.js"></script>
+
+
+    <!-- Fontawesome JS Files -->
+    <!-- <script src="../vendor/fontawesome-5.1.1/js/all.min.js"></script> -->
+    <script src="../vendor/fontawesome-5.1.1/js/brands.min.js"></script>
+    <script src="../vendor/fontawesome-5.1.1/js/fontawesome.min.js"></script>
+    <script src="../vendor/fontawesome-5.1.1/js/regular.min.js"></script>
+    <!-- <script src="../vendor/fontawesome-5.1.1/js/solid.min.js"></script> -->
+    <script src="../vendor/fontawesome-5.1.1/js/v4-shims.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Sworte</title>
+     <!-- Bootstrap CSS-->
+      <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+    <!-- Sworte custom CSS   -->
+    <link rel="stylesheet" type="text/css" href="css/sworte.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/logo_favicon.ico">
+    <!-- Font Awesome CSS Updated-->
+    <link rel="stylesheet" href="vendor/fontawesome-5.1.1/css/all.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome-5.1.1/css/brands.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome-5.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome-5.1.1/css/regular.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome-5.1.1/css/solid.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome-5.1.1/css/svg-with-js.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome-5.1.1/css/v4-shims.min.css">      
+    <!-- Font Awesome CSS-->
+      <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+      <!-- Google fonts - Poppins-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,600">
+      <link href="https://fonts.googleapis.com/css?family=Play:400,700" rel="stylesheet">
+      <!-- Autograph Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Arizonia|Dancing+Script|Great+Vibes|Italianno|Monsieur+La+Doulaise|Mr+De+Haviland|Tangerine" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Pacifico" rel="stylesheet">
+      <!-- Custom font icons-->
+      <link rel="stylesheet" href="css/fontastic.css">
+      <!-- Favicon-->
+      <link rel="icon" type="image/png" href="img/02-2_Sworte_Logo.png">
+  </head>
+
+	<body>
+
+
+
+    <!-- navbar -->
+    <header class="header fixed-top ">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a href="index.html" class="navbar-brand"><img src="img/5_sworte_logo.png" alt="Sworte_logo" class="img-fluid"></a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">Menu<i class="fa fa-bars ml-2"></i></button>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">            
+            <ul class="navbar-nav ml-auto">
+                  <!-- Link-->
+                <li class="nav-item text-center">
+                  <a href="#login-form" data-toggle="modal" data-target="#login" class="nav-link">
+                  <span class="fa-stack has-badge"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-key fa-stack-1x"></i>
+                </span><br>
+                <span class="menu-title">Login or Signup</span>
+                  <!-- <i class=""></i> -->
+                </a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+  <!-- Login/ Sign Up Modal -->
+    <div id="login" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade bd-example-modal-lg">
+      <div role="document" class="modal-dialog modal-dialog-centered modal">
+        <div class="modal-content">
+          <div class="modal-header-1 border-bottom-0 navbar navbar-expand-sm bg-light ">
+              <div class="bs-example bs-example-tabs">
+
+                <nav class="">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" id="loginModal">Login</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" id="registerModal">Register</a>
+                    </li>
+                  </ul>
+                </nav>
+
+              </div>
+            <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+          </div>
+            <!-- Login form here -->
+          <div class="modal-body active" id="loginForm">
+              <div class="">
+                <div class="panel-body" >
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="register-form">
+                          <form action="#" class="register-form-2 text-left">
+                           <div class="">
+                           <h4><strong>Sign in to continue</strong></h4>
+                            <p>Need an account? <a href="register.html" class="Password-link" style="color:  #C43C38;">Click Here</a></p>
+                            <br></div>
+                            <div class="form-group mb-4">
+                              <label>Email<sup class="text-primary">&#10033;</sup></label>
+                              <input type="text" name="email" placeholder="johndoe@mail.com" class="form-control">
+                            </div>
+                            <div class="form-group mb-4">
+                              <label>Password<sup class="text-primary">&#10033;</sup></label>
+                              <input type="Password" name="name" placeholder="********** (8 or more characters)" class="form-control">
+                            </div>
+
+                            <div class="custom-control custom-checkbox mb-4">
+                              <input type="checkbox" class="custom-control-input" id="customCheck1">
+                              <label class="custom-control-label" for="customCheck1"> Remember me</label>
+                            </div>
+
+                            <div class="form-group">
+                              <input type="submit" value="Sign In" class="btn btn-sworte register-btn">
+                            </div>
+
+                            <div class="register-form-4 text-center">
+                              <a href="lost_password.html" class="Password-link" style="color: #C43C38;">Lost your Password?</a>
+                              <p>or</p>
+                            </div>
+                              <div class="form-row mb-11">
+                                <div class="col">
+                                  <p class="bt-x">Sign-in with: </p>
+                                </div>
+
+                                <div class="col">
+                                  <a href="account/personality.html" class="fb btn-1">
+                                    <i class="fa fa-facebook fa-fw"></i> Facebook
+                                  </a>
+                                </div>
+
+                                 <div class="col">
+                                    <a href="#" class="google btn-1">
+                                      <i class="fa fa-google fa-fw"></i> Google
+                                    </a>
+                                </div>    
+                              </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Register form here -->
+            <div class="modal-body" id="registerForm">
+                <div class="">
+                  <div class="panel-body" >
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="row">
+                        <div class="register-form-11">
+                          <form action="#" class="register-form-22 text-left">
+                           <div class="">
+                           <h4><strong>Register an Account</strong></h4>
+                            <p>Already have an account? <a href="sign_in.html" class="Password-link" style="color:  #C43C38;">Click Here</a></p>
+                            <br></div>
+
+                              <div class="form-row">
+                                <div class="col">
+                                  <div class="form-group mb-11">
+                                    <label>First Name<sup class="text-primary">&#10033;</sup></label>
+                                    <input type="text" name="name" placeholder="John" class="form-control">
+                                  </div>
+                                </div>
+
+                               <div class="col">
+                                  <div class="form-group mb-11">
+                                  <label>Last Name<sup class="text-primary">&#10033;</sup></label>
+                                  <input type="text" name="name" placeholder="Doe" class="form-control">
+                                </div>
+                               </div>
+                              </div>
+
+                            <div class="form-group mb-11">
+                              <label>Email<sup class="text-primary">&#10033;</sup></label>
+                              <input type="text" name="email" placeholder="johndoe@mail.com" class="form-control">
+                            </div>
+
+                            <div class="form-group mb-11">
+                              <label>Password<sup class="text-primary">&#10033;</sup></label>
+                              <input type="Password" name="name" placeholder="********** (8 or more characters)" class="form-control">
+                            </div>
+
+                            <div class="form-group text-center">
+                              <input type="submit" value="Create Account" class="btn btn-sworte register-btn">
+                            </div>
+
+                            <div class="register-form-44 text-center">
+                              <!-- <a href="lost_password.html" class="Password-link" style="color:  #C43C38;"> Lost your Password?</a> -->
+                              <p>or</p>
+                            </div>
+
+                              <div class="form-row mb-11">
+                                <div class="col">
+                                  <p class="bt-x">Register with: </p>
+                                </div>
+
+                                <div class="col">
+                                  <a href="account/personality.html" class="fb btn-1">
+                                    <i class="fa fa-facebook fa-fw"></i> Facebook
+                                  </a>
+                                </div>
+
+                                 <div class="col">
+                                    <a href="#" class="google btn-1">
+                                      <i class="fa fa-google fa-fw"></i> Google
+                                    </a>
+                                </div>    
+                              </div>
+                          </form>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+           </div>         
+        </div>
+      </div>
+    </div>
+
+
+      <!-- Overview Section -->
+      <section class="overview-head bg-gray">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-4 mt-5 mt-lg-0 overview-body">
+            <div class="row">
+              <h2 class="overview-body-1"><strong>Autobiography!</strong></h2>
+              <p class="overview-body-1">Bootstrap provides the collapse() method for changing the default behavior of the
+                collapse plugin.</p>
+                  <a href="features.html" class="btn btn-sworte">Discover our Platform</a>
+                  <p>Already have an account? <a href="#" class="Password-link">Sign In</a></p>
+            </div>
+          </div>
+          <div class="col-lg-8 mt-5 mt-lg-0">
+            <div>
+              <div><img src="img/prototype_wallpaper.jpg" alt="" class="img-fluid img-style-1"></div>
+            </div>            
+          </div>
+        </div>
+      </div>
+      </section>
+
+
+      <!-- Features -->
+      <section class="">
+        <div class="container">
+          <div class="container text-center">          
+              <div class="row">
+                  <div class="col-lg-7 mx-auto">
+                    <p class="lead text-muted">Features</p>
+                  </div>
+              </div>
+              <h2 class="hero-heading"><strong>See How it Works</strong></h2>
+              <hr>  
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-4 mt-5 mt-lg-0">
+              <div class="row">
+                <h5></h5>
+                <p></p>
+              </div>
+              <div class="row feature-box" id="ope" data-img="img/prototype_wallpaper.jpg">
+                <h5 ><strong>See how it works</strong></h5>
+                <p>Bootstrap provides the collapse() method for changing the default behavior of the
+                  collapse plugin.</p>
+              </div>
+              <div class="row feature-box" data-img="img/sworte_wp1.jpg">
+                <h5><strong>See how it works</strong></h5>
+                <p>Bootstrap provides the collapse() method for changing the default behavior of the
+                  collapse plugin. </p>
+              </div>
+              <div class="row feature-box" data-img="img/sworte_wp.jpg">
+                <h5><strong>See how it works</strong></h5>
+                <p>Bootstrap provides the collapse() method for changing the default behavior of the
+                  collapse plugin. </p>
+              </div> 
+            </div>
+            <div class="col-lg-8 mt-5 mt-lg-0">
+              <div>
+                <div><img id="featureImg" src="img/prototype_wallpaper.jpg" alt="" class="img-fluid"></div>
+              </div>            
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+		 <!-- Contact Section-->
+      <section class="bg-gray">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-4 mt-5 mt-lg-0">
+            <div class="box">
+              <div><img src="img/02-6_sworte_logo.png" alt="" class="img-fluid img-style"></div>
+              <div class="row-ver">
+                <p class="font-weight-light">Shoot us an email and tell us something we should apy attention to or just say hello! We'll be glad to get back to you.</p>
+                <p class="font-weight-light">Thank you</p>
+              </div>
+              
+                <div class="row-1">
+                  <div class="col-lg-3 feedloop">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <div class="col-lg-9 text-left fd-loop">
+                    <p>+234 818 225 2331</p>
+                  </div>
+                  <div class="col-lg-3 feedloop">
+                    <i class="fa fa-envelope"></i>
+                  </div>
+                  <div class="col-lg-9 text-left fd-loop">
+                    <p>feedback@sworte.com</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <form action="#" class="contact-form text-left box">
+              <div class="form-group-11 mb-4">
+                <label>Name<sup class="text-primary">&#10033;</sup></label>
+                <input type="text" name="name" placeholder="e.g. John Smith" class="form-control">
+              </div>
+              <div class="form-group-11 mb-4">
+                <label>Email Address<sup class="text-primary">&#10033;</sup></label>
+                <input type="text" name="email" placeholder="addresss@mail.com" class="form-control">
+              </div>
+              <div class="form-group-11 mb-4">
+                <label>Subject<sup class="text-primary">&#10033;</sup></label>
+                <input type="text" name="subject" placeholder="Briefly describe your question" class="form-control">
+              </div>
+              <div class="form-group-11 mb-4">
+                <label>Now let's hear the details<sup class="text-primary">&#10033;</sup></label>
+                <textarea name="message" placeholder="Let us know what you need" class="form-control"></textarea>
+              </div>
+              <div class="form-group-1">
+                <input type="submit" value="Send message" class="btn btn-sworte">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      </section>
+     
+     
+     <!-- FAQ Section-->
+    <section class="">
+      <div class="container">
+        <div class="container text-center">          
+            <div class="row">
+                <div class="col-lg-7 mx-auto">
+                  <p class="lead text-muted">FAQ</p>
+                </div>
+            </div>
+        </div>
+        <header class="section-body header mb-5">
+          <h2 class="hero-heading text-center"><strong>Frequentl Asked Questions</strong></h2>
+            <hr>  
+          <p class="lead text-center">We have provided answers to questions you might have</p>
+        </header>
+        <div class="row"> 
+          <div class="col-lg-12">   
+            <div id="accordion" class="faq accordion accordion-custom ">
+              <!-- question-->
+              <div class="card">
+                <div id="headingOne" class="card-header">
+                  <h4 class="mb-0 accordion-heading">
+
+                    <button data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="d-flex align-items-center">
+                      <div class="row" style="width: 100%;">
+                        <div class="col-md-10 col-sm-10 col-xs-10">
+                          <i class="icon-light-bulb "></i><span>Anim pariatur cliche reprehenderit</span>    
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-2 text-right tr-y">
+                          <span class="fa fa-minus-square-o"></span>    
+                        </div>
+                      </div>                      
+                    </button>
+                  </h4>
+                </div>
+                <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordion" class="collapse show">
+                  <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</div>
+                </div>
+              </div>
+              <!-- question -->
+              <div class="card">
+                <div id="headingTwo" class="card-header">
+                  <h4 class="mb-0 accordion-heading">
+                    <button data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-flex align-items-center collapsed">
+                      <div class="row" style="width: 100%;">
+                        <div class="col-md-10 col-sm-10 col-xs-10">
+                          <i class="icon-plug"></i><span> Wolf moon officia aute, non cupidatat?</span>  
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-2 text-right tr-y">
+                          <span class="fa fa-plus-square-o"></span>    
+                        </div>
+                      </div>                      
+                    </button>
+                  </h4>
+                </div>
+                <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordion" class="collapse">
+                  <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.</div>
+                </div>
+              </div>
+              <!-- question-->
+              <div class="card">
+                <div id="headingThree" class="card-header">
+                  <h4 class="mb-0 accordion-heading">
+                    <button data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="d-flex align-items-center collapsed">
+                      <div class="row" style="width: 100%;">
+                        <div class="col-md-10 col-sm-10 col-xs-10">
+                          <i class="icon-shield-settings"></i><span>Food truck quinoa nesciunt laborum?</span> 
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-2 text-right tr-y">
+                          <span class="fa fa-plus-square-o"></span>    
+                        </div>
+                      </div>                      
+                    </button>
+                  </h4>
+                </div>
+                <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordion" class="collapse">
+                  <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.</div>
+                </div>
+              </div>
+              <!-- question            -->
+              <div class="card">
+                <div id="headingFour" class="card-header">
+                  <h4 class="mb-0 accordion-heading">
+                    <button data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="d-flex align-items-center collapsed">
+                      <div class="row" style="width: 100%;">
+                        <div class="col-md-10 col-sm-10 col-xs-10">
+                          <i class="icon-stack-of-sheets"></i><span>Anim pariatur cliche reprehenderit?</span>
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-2 text-right tr-y">
+                          <span class="fa fa-plus-square-o"></span>    
+                        </div>
+                      </div>                      
+                    </button>
+                  </h4>
+                </div>
+                <div id="collapseFour" aria-labelledby="headingFour" data-parent="#accordion" class="collapse">
+                  <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                </div>
+              </div>
+            </div>
+    </section>
+
+    <!-- Beta Team -->
+      <section class="get-started bg-gray">
+        <div class="container text-center">
+          <h2 class="hero-heading text-center"><strong>Product Improvement Team</strong></h2>
+          <div class="row">
+            <div class="col-lg-8 m-auto">
+              <p class="lead text-muted mt-2">Your insights and feedbacks are gold to us as a means to help us serve you better and to grow the product vision. Join Us now.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mx-auto">
+              <form action="#" class="subscription-form mt-5">
+                <div class="form-group">
+                  <input type="email" name="email" placeholder="Name@mail.com" class="form-control-11 form-width-2">
+                  <button type="submit" class="btn btn-sworte">Join Now</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <footer class="main-footer">
+        <div class="copyrights">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 text-center text-lg-left">
+                <p class="copyrights-text mb-3 mb-lg-0">&copy; All rights reserved. Swortetech Ltd</p>
+              </div>
+              <div class="col-lg-4 text-center text-lg-center">
+                 <ul class="list-inline social mb-0">
+                    <li class="list-inline-item">
+                      <a href="faq.html" class="footer-link">faq</a>
+                      <a href="features.html" class="footer-link">features</a>
+                      <a href="feedback.html" class="footer-link">feedback</a>
+                    </li>
+                </ul>
+              </div>
+              <div class="col-lg-4 text-center text-lg-right">
+                <ul class="list-inline social mb-0">
+                  <li class="list-inline-item">
+                    <a href="#" class="social-link"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa fa-whatsapp"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+     
+
+        <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/lightbox2/js/lightbox.js"></script>
+    <script src="js/front.js"></script>    
+    <script src="js/modal.js"></script>    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sworte.js"></script>
+
+    <!-- Fontawesome JS Files -->
+    <!-- <script src="../vendor/fontawesome-5.1.1/js/all.min.js"></script> -->
+    <script src="vendor/fontawesome-5.1.1/js/brands.min.js"></script>
+    <script src="vendor/fontawesome-5.1.1/js/fontawesome.min.js"></script>
+    <script src="vendor/fontawesome-5.1.1/js/regular.min.js"></script>
+    <!-- <script src="../vendor/fontawesome-5.1.1/js/solid.min.js"></script> -->
+    <script src="vendor/fontawesome-5.1.1/js/v4-shims.min.js"></script>
+    <script src="js/sworte.js"></script>
+	</body>
+</html>

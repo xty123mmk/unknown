@@ -1,0 +1,54 @@
+/*
+* =====================================================
+*     GENERAL
+* =====================================================
+*/
+
+
+.register-form-11 {
+	background-color: #ffffff;
+	width: 100%; 
+	margin: auto;
+}
+
+.register-form-22 {
+	align-items: center;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	color: #555;
+}
+
+.register-form-33 {
+	align-items: left;
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 0px;
+	padding-bottom: 10px;
+	color: #555;
+}
+
+.register-form-44 {
+	align-items: center;
+  padding-top: 10px;
+}
+
+.register-form-22 {
+	align-items: center;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	color: #555;
+}
+
+.register-form-03 {
+	width: 100% !important;
+}
+
+.mb-11 {
+  margin-bottom: 1.7rem !important;
+}
