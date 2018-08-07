@@ -1,0 +1,9 @@
+DB = mongodb://*****,
+LOCALDB = mongodb://****,
+SECRET = **********************
+
+cloud_name = *********,
+api_key = **************,
+api_secret = ****************,
+
+PORT = ****
