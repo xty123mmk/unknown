@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(logger('dev'));
 app.use(cors());
 
-mongoose.connect(process.env.LOCALDB, { useNewUrlParser: true })
+mongoose.connect(process.env.DB, { useNewUrlParser: true })
   .then(() => {
     console.log('connected');
   })
