@@ -1,0 +1,42 @@
+/* your styles go here */
+
+.img-style {
+	width: 50%;
+}
+
+.img-style-11 {
+	width: 25%;
+}
+
+.btn-sworte {
+	/*background-color: #C43C38;*/
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.brand-small {
+	padding: 10px 10px 10px 10px;
+}
+
+a {
+	/*color: #C43C38;*/
+}
+
+.login-page a.forgot-pass, .login-page a.signup, .register-page a.forgot-pass, .register-page a.signup {
+	/*color: #C43C38;*/
+}
+
+nav.navbar {
+	/*background-color: #C43C38;*/
+}
+
+.dashboard-counts .count-title i {
+	/*color: #C43C38;*/
+}
+.statistics .user-activity .progress .progress-bar.bg-primary {
+	/*background-color: #C43C38 !important; */
+}
+

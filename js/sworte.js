@@ -2,6 +2,7 @@
 var feature = document.getElementsByClassName("feature-box");
 var featureImg =  document.getElementById("featureImg");
 
+// register and login
 $(function () {
 	$("#registerForm").hide();
 	$("#registerModal").click(function () {
@@ -64,19 +65,19 @@ function togglePanel() {
 /* settings page */
 $(document).ready(function () {
     $("#notificationContent, #configurationContent").hide();
-    $("#notification").click(function () {
+    $("#notification, #userNext, #configurationPrev").click(function () {
       $("#notification").addClass('active');
       $("#configuration, #userInfo").removeClass('active');
       $("#notificationContent").fadeIn();
       $("#userInfoContent, #configurationContent").fadeOut();
     });
-    $("#configuration").click(function () {
+    $("#configuration, #notificationNext").click(function () {
       $("#configuration").addClass('active');
       $("#notification, #userInfo").removeClass('active');
       $("#configurationContent").fadeIn();
       $("#userInfoContent, #notificationContent").fadeOut();
     });
-    $("#userInfo").click(function () {
+    $("#userInfo, #notificationPrev").click(function () {
       $("#userInfo").addClass('active');
       $("#configuration, #notification").removeClass('active');
       $("#userInfoContent").fadeIn();
@@ -112,4 +113,75 @@ $(document).ready(function(){
 
 });
 
+// network
+$(".n-image-container").mouseover(function () {
+  this.childNodes[3].style.display = "block";
+});
+$(".n-image-container").mouseout(function () {
+  this.childNodes[3].style.display = "none";
+});
 
+// profile page bio-pic
+var modalCall = document.getElementsByClassName("modal-call");
+for (var i = 0; i < modalCall.length; i++) {
+  modalCall[i].setAttribute("data-num", i);
+}
+
+$(function () {
+  $(".modal-call").click(function () {
+    var bioStory = $(this).attr("id", "bioStory");
+    bioStory = $(this).attr("id");
+    $("#bioModalTitle").html(($("#"+bioStory+ " .bio-title").html()));
+    $("#bioModalDescription").html(($("#"+bioStory+ " .bio-description").html()));
+    $("#bioModalImage").attr("src", ($("#"+bioStory+ " .bio-image").attr("src")));
+    $(this).attr("id", "");
+    var dataNum = $(this).attr("data-num");
+    $("#nextBtn").click(function () {
+      if (dataNum >= modalCall.length - 1) {
+        dataNum = -1;
+      }
+      dataNum = parseInt(dataNum) + 1;
+      var bioStory = modalCall[dataNum].setAttribute("id", "bioStory");
+      bioStory = modalCall[dataNum].getAttribute("id");
+      $("#bioModalTitle").html(($("#"+bioStory+ " .bio-title").html()));
+      $("#bioModalDescription").html(($("#"+bioStory+ " .bio-description").html()));
+      $("#bioModalImage").attr("src", ($("#"+bioStory+ " .bio-image").attr("src")));
+      modalCall[dataNum].setAttribute("id", "");
+      
+    });
+  $("#prevBtn").click(function () {
+      if (dataNum <= 0) {
+        dataNum = modalCall.length;
+      }
+      dataNum = parseInt(dataNum) - 1;
+      var bioStory = modalCall[dataNum].setAttribute("id", "bioStory");
+      bioStory = modalCall[dataNum].getAttribute("id");
+      $("#bioModalTitle").html(($("#"+bioStory+ " .bio-title").html()));
+      $("#bioModalDescription").html(($("#"+bioStory+ " .bio-description").html()));
+      $("#bioModalImage").attr("src", ($("#"+bioStory+ " .bio-image").attr("src")));
+      modalCall[dataNum].setAttribute("id", "");
+      
+    });
+  });
+});
+
+// personality
+var editBtn = document.getElementsByClassName("edit-btn");
+for (var i = 0; i < editBtn.length; i++) {
+  var dataId;
+  var dataContent;
+  editBtn[i].addEventListener("click", function () {
+    dataId = $(this).attr("data-id");
+    dataContent = $(this).attr("data-content");
+    if (document.getElementById(dataId).style.display == "block") {
+      $("#"+dataId).slideUp();
+      $("#"+dataContent).slideDown();
+      $(this).html('<a class="edit-link edit-color"><i class="fas fa-pencil-alt"></i></a>');
+    }else{
+      $("#"+dataId).slideDown();
+      $("#"+dataContent).slideUp();
+      console.log(this);
+      $(this).html('<a class="edit-link save-color"><i class="fa fa-paper-plane-o"></i></a>');
+    }
+  },false);
+}
